@@ -1,7 +1,7 @@
 
 # Site settings
 
-url: "http://panossakkos.github.io"
+url: "https://github.com/VincentBonhomme/personal-jekyll-theme.git"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -16,20 +16,20 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "John Smith"
-lang: "en"
-title: "{ John Smith }"
-favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+author: "Vincent Bonhomme"
+lang: "Fr"
+title: "{Vincent Bonhomme}"
+favicon:
+description: "Blog and website of VincentBonhomme, Web designer."
 keywords: "smith, jones, personal, jekyll, theme"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+black-favicon: False
+background-img: "../img/home-2.jpg"
+me-img: "/img/profil.png"
 
 ##############################
 # Dynamic Text on the header #
@@ -43,8 +43,8 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Hi there! "
+  - text: "Here're some informations about me!"
 
 ########
 # Blog #
@@ -57,28 +57,40 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: ""
 
 ###############
 # Life Events #
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/workflow.png"
+    date: "December 2014 - Today"
+    description: " Freelance web designer/front end developer."
+  - image: "/img/career/logo-cl.png"
+    date: "March 2015 - Today"
+    description: "Launching of Roads Clothing Department : at Roads, we have decided to release a clothing label to support and develop our webzine. All our garments are produced in limited series and fully manufactured in Paris. You can see our e-shop (wich I designed) and the collection at this [link](http://www.roadsboutique.com/ 'link'){:target='_blank'}."
+  - image: "/img/career/le-wagon.png"
+    date: "September 2014 - December 2014"
+    description: "Alumni of a fullstack bootcamp at [Le Wagon](http://www.lewagon.com/ 'Le Wagon'){:target='_blank'} (french coding school). Learning of html and css (Sass/less), ruby & Rails, javascript (jquery) and git/Github "
+  - image: "/img/career/logo-roads-news.png"
+    date: "September 2012 - Today"
+    description: "CEO, Journalist (music and cinema), web designer and web master of [Roads Magazine](http://roadsmag.com/ 'Roads Magazine'){:target='_blank'}, a cultural and political independant webzine"
+  - image: "/img/career/web-tech.jpg"
+    date: "April 2012 - October 2012"
+    description: "Journalist for [Web & Tech](http://web-tech.fr/ 'Web & Tech'){:target='_blank'}, a french pure-player specialized in high-tech and web culture"
+  - image: "/img/career/iscpa.png"
+    date: "September 2011 - September 2014"
+    description: "Obtaining of a Licence in Journalism at ISCPA PARIS (Institut Supérieur des Médias)"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/career/time.jpg"
 
 ##################
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "vincent.vbonhomme@gmail.com"
 
 ##################
 # Social Buttons #
@@ -86,21 +98,18 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
+    url: "https://www.facebook.com/vincent.bonhomme.56"
   - title: "twitter"
-    url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "https://twitter.com/bonhommevincent"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/VincentBonhomme"
+
 
 ############
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/tv.jpeg"
 
 ################################################################################
 
@@ -112,8 +121,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
-  Career: 'career'
+  career: 'career'
   Contact: 'contact'
 
 # Pagination path

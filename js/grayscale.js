@@ -11,6 +11,9 @@ $(window).scroll(function() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+    if($(this).scrollTop() < 50){
+      $('.navbar-nav li').removeClass('active');
+    }
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
